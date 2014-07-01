@@ -547,6 +547,8 @@ if HAS_LLFUSE:
 		os.dup2(se.fileno(), sys.stderr.fileno())
 
 	def mount(archive,mountpt,foreground=False,debug=False):
+		archive = os.path.abspath(archive)
+		mountpt = os.path.abspath(mountpt)
 		with open(archive,"rb") as fp:
 			ops = Operations(fp)
 			args = ['fsname=bgebf', 'subtype=bgebf', 'ro']
