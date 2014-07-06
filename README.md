@@ -81,13 +81,14 @@ be a signed 32bit integer and the value is -1.)
 	     0     4  uint32_t       size
 	     4     4  ?              ?
 	     8  size  uint8_t[size]  data
-		 
+
 Related Projects
 ----------------
 
  * [fezpak](https://github.com/panzi/fezpak): pack, unpack, list and mount FEZ .pak archives
  * [psypkg](https://github.com/panzi/psypkg): pack, unpack, list and mount Psychonauts .pkg archives
  * [unvpk](https://bitbucket.org/panzi/unvpk): extract, list, check and mount Valve .vpk archives
+ * [u4pak](https://github.com/panzi/psypak): unpack, list and mount Unreal Engine 4 .pak archives
 
 BSD License
 -----------
