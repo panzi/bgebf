@@ -89,6 +89,7 @@ Related Projects
  * [psypkg](https://github.com/panzi/psypkg): pack, unpack, list and mount Psychonauts .pkg archives
  * [unvpk](https://bitbucket.org/panzi/unvpk): extract, list, check and mount Valve .vpk archives
  * [u4pak](https://github.com/panzi/u4pak): unpack, list and mount Unreal Engine 4 .pak archives
+ * [t2fbq](https://github.com/panzi/t2fbq): unpack, list and mount Trine 2 .fbq archives
 
 BSD License
 -----------
